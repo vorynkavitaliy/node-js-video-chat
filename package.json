@@ -1,0 +1,34 @@
+{
+	"name": "streaming",
+	"version": "0.0.1",
+	"description": "streaming by Vorynka V. using node.js express postgresql for backend side",
+	"main": "server.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=production node server.js",
+		"server": "nodemon server.js"
+	},
+	"keywords": [
+		"node.js",
+		"express",
+		"postgresql",
+		"js"
+	],
+	"author": "Vorynka V. <vorynkaveta@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"body-parser": "^1.20.0",
+		"concurrently": "^7.1.0",
+		"nodemon": "^2.0.20",
+		"pg": "^8.7.3"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"cross-env": "^7.0.3",
+		"dotenv": "^16.0.0",
+		"ejs": "^3.1.8",
+		"express": "^4.17.3",
+		"peer": "^0.6.1",
+		"socket.io": "^4.5.3",
+		"uuid": "^9.0.0"
+	}
+}
